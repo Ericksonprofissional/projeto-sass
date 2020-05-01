@@ -1,5 +1,7 @@
 Instalando o SASS (Linux):
+
 Dê o seguinte comando :
+
 sudo apt install ruby-full rubygems autogen autoconf libtool make
 
 E Depois:
