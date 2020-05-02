@@ -222,9 +222,10 @@ header .container {
     border-bottom: 1px solid #acacac;
     padding: .5em;
     width: 14.8em;
-  }
-  li:last-child {
-    border: 0;
+
+    &:last-child {
+      border: 0;
+    }
   }
   span {
     float: right;
