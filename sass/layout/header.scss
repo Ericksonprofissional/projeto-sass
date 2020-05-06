@@ -5,10 +5,31 @@ header {
     height: 90px;
     width: 100%;
     position: absolute;
+
+    @media (max-width: 980px) {
+      height: auto;
+
+      h1 {
+        max-width: 50%;
+        margin: 0 auto;
+        
+        img {
+          max-width: 100%;
+          margin: .5em auto;
+          display: block;
+        }
+      }
+    }
   }
   
   header .container {
     position: relative;
+
+    @media (max-width: 980px) {
+	    .container{
+        position: static;
+      }
+    }
   }
   
   .menu-principal {
@@ -32,6 +53,16 @@ header {
         text-decoration: underline;
       }
     }
-  
+
+    @media (max-width: 980px) {      
+        position: static;
+        display: block;
+        text-align: center;
+        width: auto;  
+       li {
+        margin: .4em;
+        width: auto;
+      }
+    }
   }
   
