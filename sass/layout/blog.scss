@@ -23,7 +23,7 @@
     display: inline-block;
     vertical-align: top;
 
-    @media (max-width: $tamanho-quebra) {
+    @media #{$mp-mobile} {
       width: auto;
   }
   
