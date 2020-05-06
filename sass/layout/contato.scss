@@ -8,7 +8,7 @@
 form {
   margin: 0 auto;
   width: 50%;
-  @media (max-width: 980px) {
+  @media (max-width: $tamanho-quebra) {
     width: auto;
   }
 }
