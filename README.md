@@ -15,3 +15,11 @@ O Sass é um pré-processador CSS, então a primeira coisa que devemos fazer é 
 sass --watch estilos.scss:estilos.css 
 
 O Sass está observando em busca de mudanças. Pressione Ctrl-C para parar". Agora, qualquer mudança feita na variável $cor-padrao, passará automaticamente para o arquivo .css.
+
+Instalação do Compass (Linux)
+
+sudo gem install compass
+
+Na pasta d projeto use o comando
+
+compass create
