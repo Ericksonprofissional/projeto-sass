@@ -1,4 +1,4 @@
-.destaque button, .plano button, .contato button {
+.destaque .destaque button, .plano button, .contato button {
   -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
 
@@ -367,6 +367,9 @@ body {
 .container {
   width: 940px;
   margin: 0 auto; }
+  @media (max-width: 980px) {
+    .container .container {
+      width: 90%; } }
 
 .titulo-secao {
   text-decoration: underline;
@@ -389,9 +392,22 @@ header {
   height: 90px;
   width: 100%;
   position: absolute; }
+  @media (max-width: 980px) {
+    header {
+      height: auto; }
+      header h1 {
+        max-width: 50%;
+        margin: 0 auto; }
+        header h1 img {
+          max-width: 100%;
+          margin: .5em auto;
+          display: block; } }
 
 header .container {
   position: relative; }
+  @media (max-width: 980px) {
+    header .container .container {
+      position: static; } }
 
 .menu-principal {
   position: absolute;
@@ -409,6 +425,15 @@ header .container {
     text-decoration: none; }
     .menu-principal a:hover {
       text-decoration: underline; }
+  @media (max-width: 980px) {
+    .menu-principal {
+      position: static;
+      display: block;
+      text-align: center;
+      width: auto; }
+      .menu-principal li {
+        margin: .4em;
+        width: auto; } }
 
 /** Destaque **/
 .destaque {
@@ -418,28 +443,28 @@ header .container {
   color: white;
   height: 330px;
   padding-top: 10em; }
-
-.destaque p {
-  width: 30em; }
-
-.destaque p:first-child {
-  width: 30em;
-  font-size: 1.3em;
-  line-height: 1.1; }
-
-.destaque p:first-child:first-line {
-  font-size: 2.2em;
-  font-weight: bold; }
-
-.destaque button {
-  margin-top: 1em;
-  background: #c24e4b;
-  border: 0;
-  padding: .6em;
-  font-size: 1.2em;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  font-weight: bold; }
+  @media (max-width: 980px) {
+    .destaque {
+      font-size: 14px;
+      height: 250px; } }
+  .destaque .destaque p {
+    width: 30em; }
+  .destaque .destaque p:first-child {
+    width: 30em;
+    font-size: 1.3em;
+    line-height: 1.1; }
+  .destaque .destaque p:first-child:first-line {
+    font-size: 2.2em;
+    font-weight: bold; }
+  .destaque .destaque button {
+    margin-top: 1em;
+    background: #c24e4b;
+    border: 0;
+    padding: .6em;
+    font-size: 1.2em;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-weight: bold; }
 
 /** Sobre **/
 .sobre {
@@ -573,23 +598,27 @@ header .container {
   width: 48%;
   display: inline-block;
   vertical-align: top; }
-
-.post-destaque {
-  margin-right: 2em; }
-
-.post-destaque img {
-  width: 100%; }
-
-.posts-antigos a {
-  text-decoration: none;
-  color: black;
-  background: url(../imagens/icone-relogio.png) left center no-repeat;
-  padding-left: 2.5em;
-  height: 1.7em;
-  display: block; }
-
-.posts-antigos a:hover {
-  text-decoration: underline; }
+  @media (max-width: 980px) {
+    .post-destaque,
+    .posts-antigos {
+      width: auto; } }
+  .post-destaque .post-destaque,
+  .posts-antigos .post-destaque {
+    margin-right: 2em; }
+  .post-destaque .post-destaque img,
+  .posts-antigos .post-destaque img {
+    width: 100%; }
+  .post-destaque .posts-antigos a,
+  .posts-antigos .posts-antigos a {
+    text-decoration: none;
+    color: black;
+    background: url(../imagens/icone-relogio.png) left center no-repeat;
+    padding-left: 2.5em;
+    height: 1.7em;
+    display: block; }
+  .post-destaque .posts-antigos a:hover,
+  .posts-antigos .posts-antigos a:hover {
+    text-decoration: underline; }
 
 /** Contato **/
 .contato input,
@@ -599,6 +628,9 @@ header .container {
 form {
   margin: 0 auto;
   width: 50%; }
+  @media (max-width: 980px) {
+    form {
+      width: auto; } }
 
 .contato input,
 textarea {

@@ -22,6 +22,9 @@
     width: 48%;
     display: inline-block;
     vertical-align: top;
+
+    @media #{$mp-mobile} {
+      width: auto;
   }
   
   .post-destaque {
@@ -44,4 +47,4 @@
   .posts-antigos a:hover {
     text-decoration: underline;
   }
-  
+}
