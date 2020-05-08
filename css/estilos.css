@@ -1,3 +1,9 @@
+/* line 56, ../imagens/sprites/*.png */
+.sprites-sprite {
+  background-image: url('/imagens/../imagens/sprites-sbfb1ab8e65.png');
+  background-repeat: no-repeat;
+}
+
 /* line 11, ../sass/helpers/mixins.scss */
 .destaque button, .plano button, .contato button {
   -moz-box-shadow: black 0 2px 10px;
