@@ -69,19 +69,11 @@
   
   @include all-sprites-sprites;
   
-  .icone-check, .icone-x {
-    
+  .sprites-icone-ok, .sprites-icone-x {    
     width: 18px;
     height: 18px;
   }
-  
-  .icone-check {
-    background-position: -5px -5px;
-  }
-  
-  .icone-x {
-    background-position: -33px -5px;
-  }
+
   
   
   

@@ -1,6 +1,6 @@
 /* line 56, ../imagens/sprites/*.png */
 .sprites-sprite, .sprites-icone-ok, .sprites-icone-x {
-  background-image: url('/imagens/../imagens/sprites-s891b87a3ab.png');
+  background-image: url('../imagens/sprites-s891b87a3ab.png');
   background-repeat: no-repeat;
 }
 
@@ -766,19 +766,9 @@ header .container {
 }
 
 /* line 72, ../sass/layout/planos.scss */
-.icone-check, .icone-x {
+.sprites-icone-ok, .sprites-icone-x {
   width: 18px;
   height: 18px;
-}
-
-/* line 78, ../sass/layout/planos.scss */
-.icone-check {
-  background-position: -5px -5px;
-}
-
-/* line 82, ../sass/layout/planos.scss */
-.icone-x {
-  background-position: -33px -5px;
 }
 
 /** Blog **/
