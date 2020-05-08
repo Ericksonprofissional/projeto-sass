@@ -599,6 +599,7 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
+  -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   font-weight: bold;
@@ -742,6 +743,7 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
+  -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   margin-left: 2em;
@@ -850,6 +852,7 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
+  -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   border: 2px solid #ccc;
@@ -864,6 +867,7 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
+  -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
 }
