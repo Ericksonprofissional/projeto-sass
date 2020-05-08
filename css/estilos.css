@@ -1,5 +1,5 @@
 /* line 56, ../imagens/sprites/*.png */
-.sprites-sprite {
+.sprites-sprite, .sprites-icone-ok, .sprites-icone-x {
   background-image: url('/imagens/../imagens/sprites-s891b87a3ab.png');
   background-repeat: no-repeat;
 }
@@ -755,19 +755,28 @@ header .container {
   margin-left: 2em;
 }
 
-/* line 69, ../sass/layout/planos.scss */
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-icone-ok {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../../var/lib/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-icone-x {
+  background-position: 0 -20px;
+}
+
+/* line 72, ../sass/layout/planos.scss */
 .icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
   width: 18px;
   height: 18px;
 }
 
-/* line 75, ../sass/layout/planos.scss */
+/* line 78, ../sass/layout/planos.scss */
 .icone-check {
   background-position: -5px -5px;
 }
 
-/* line 79, ../sass/layout/planos.scss */
+/* line 82, ../sass/layout/planos.scss */
 .icone-x {
   background-position: -33px -5px;
 }
