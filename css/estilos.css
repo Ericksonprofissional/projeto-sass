@@ -787,9 +787,9 @@ header .container {
 /* line 20, ../sass/layout/blog.scss */
 .post-destaque,
 .posts-antigos {
-  width: 48%;
+  width: 55%;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 @media (max-width: 980px) {
   /* line 20, ../sass/layout/blog.scss */
@@ -901,8 +901,8 @@ footer::before {
 
 /* line 30, ../sass/layout/footer.scss */
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
 
