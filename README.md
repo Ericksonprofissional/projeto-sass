@@ -23,3 +23,6 @@ sudo gem install compass
 Na pasta d projeto use o comando
 
 compass create
+
+http://sass-lang.com/documentation/Sass/Script/Functions.html#round-instance_method
+
