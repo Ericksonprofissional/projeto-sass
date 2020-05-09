@@ -8,12 +8,17 @@
     @include border-radius($raio);
   }
   // placeholder não aceita parametro.
-  %sombra-padrao {
-    @include box-shadow(black 0 2px 10px);
-  }
+%sombra-padrao {
+  @include box-shadow(black 0 2px 10px);
+}
   
-  @mixin image-replacement {
-    text-indent: -9999px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-  }
+@mixin image-replacement {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+
+@function calcula-fonte($multicador){
+  @return $multicador * $tamanho-da-fonte-padrao;
+}

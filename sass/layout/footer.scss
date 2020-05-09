@@ -28,8 +28,8 @@ footer {
   }
   
   footer .container {
-    padding-top: 3 * $tamanho-da-fonte-padrao;
-    height: 6.5 * $tamanho-da-fonte-padrao;
+    padding-top: calcula-fonte(3);
+    height: calcula-fonte(6.5);
     position: relative;
   }
   
