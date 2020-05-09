@@ -19,9 +19,9 @@
   
   .post-destaque,
   .posts-antigos {
-    width: 48%;
+    width: 55%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
 
     @media #{$mp-mobile} {
       width: auto;
