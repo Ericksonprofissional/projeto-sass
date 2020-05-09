@@ -20,5 +20,5 @@
 
 
 @function calcula-fonte($multicador){
-  @return $multicador * $tamanho-da-fonte-padrao;
+  @return round($multicador * $tamanho-da-fonte-padrao);
 }
